@@ -27,10 +27,10 @@ int main()
             cin >> nValue;
 
             if (nValue < 0)
-        {
-            break;
-        }
-        accumulator += nValue;
+            {
+                break;
+            }
+            accumulator += nValue;
         }
         if (accumulator == 0)
         {
